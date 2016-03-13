@@ -1,6 +1,7 @@
 /* Coolors Exported Palette - coolors.co/ffffff-00171f-003459-007ea7-00a8e8 */
 body {
-  background-color: #ffffff; }
+  background-color: #ffffff;
+  margin: 0px; }
 
 a {
   text-decoration: none;
@@ -14,19 +15,34 @@ a:hover {
   color: #ffffff;
   font-size: 20px;
   padding: 10px;
-  border: 10px; }
+  margin-bottom: 30px;
+  /*margin-right: 0px;*/
+  /*padding-right: 0px;*/
+  /*width: 100%;*/
+  /*display: inline-block;*/ }
+
+.work-in-progress {
+  background-color: #ff6666;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 5px;
+  /*	color: $white;
+  */ }
 
 .nav-bar {
   display: table;
-  height: 10px;
+  table-layout: fixed;
+  height: 50px;
   width: 100%;
-  vertical-align: middle; }
+  vertical-align: middle;
+  padding: 0px;
+  margin: 0px; }
 
 .nav-bar li {
   display: table-cell;
-  min-height: 10px;
-  width: 14%;
-  line-height: 10px;
+  min-height: 50px;
+  width: 15%;
+  line-height: 50px;
   text-align: center;
   vertical-align: middle;
   font-weight: 500; }
@@ -35,9 +51,6 @@ a:hover {
   .nav-bar li {
     display: block;
     width: 100%; } }
-.content {
-  padding: 30px 0px; }
-
 .section {
   /*background-color: $teal;*/
   border: 5px #007ea7 solid;
@@ -49,25 +62,42 @@ a:hover {
 .about-me {
   overflow: hidden; }
 
+.about-me h2 {
+  width: 650px;
+  margin-right: 5px;
+  padding-right: 0px;
+  display: inline-block; }
+
 .about-me img {
   float: right;
   margin: 5px;
-  height: 200px; }
+  height: 200px;
+  border-radius: 25px; }
 
 .text {
   float: left;
-  width: 70%;
-  padding: 10px;
+  width: 75%;
   margin: 10px;
-  padding-top: 5%;
-  padding-bottom: 5%;
+  /*padding: 10px;*/
+  /*padding-top: 5%;*/
+  /*padding-bottom: 5%;*/
   /*margin-top: auto;*/
   /*margin-bottom: auto;*/ }
 
 .about-me p {
   text-align: center; }
 
+.connect {
+  display: table;
+  table-layout: fixed; }
+
 .social-networks {
+  display: table-cell;
+  width: 50%;
+  text-align: center;
+  vertical-align: middle; }
+
+.social-networks-img {
   height: 100px;
   width: 100px;
   background-color: #ffffff;
