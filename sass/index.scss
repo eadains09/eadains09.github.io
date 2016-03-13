@@ -1,0 +1,97 @@
+@import "palette";
+
+body {
+	background-color: $white;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+a:hover {
+	color: $darkSlate;
+}
+
+.menu {
+	background-color: $teal;
+	color: $white;
+	font-size: 20px;
+	padding: 10px;
+	border: 10px;
+}
+
+.nav-bar {
+	display: table;
+	height: 10px;
+	width: 100%;
+	vertical-align: middle;
+}
+
+.nav-bar li {
+	display: table-cell;
+	min-height: 10px;
+	width: 14%;
+	line-height: 10px;
+	text-align: center;
+	vertical-align: middle;
+	font-weight: 500;
+}
+
+@media (max-width: 700px) {
+	.nav-bar li {
+		display: block;
+		width: 100%;
+	}
+}
+
+.content {
+	padding: 30px 0px;
+
+}
+
+.section {
+	/*background-color: $teal;*/
+	border: 5px $teal solid;
+	border-radius: 5px;
+	color: $darkSlate;
+	margin: 20px;
+	padding: 20px;
+}
+
+.about-me {
+	overflow: hidden;
+}
+
+.about-me img {
+	float: right;
+	margin: 5px;
+	height: 200px;
+}
+
+.text {
+	float: left;
+	width: 70%;
+	padding: 10px;
+	margin: 10px;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	/*margin-top: auto;*/
+	/*margin-bottom: auto;*/
+}
+
+.about-me p {
+	text-align: center;
+	
+}
+
+.social-networks {
+	height: 100px;
+	width: 100px;
+	background-color: $white;
+	border-radius: 10px;
+	margin: 10px;
+}
+
+
+
